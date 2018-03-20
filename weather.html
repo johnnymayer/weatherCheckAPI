@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="weather-interface.js"></script>
+    <title>Weather</title>
+    <style>
+    body, button, input {font-size: 6vw; color: white; background-color: black;}
+
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>Get Weather Conditions From Anywhere!</h1>
+      <label for="zip">Enter zip code:</label>
+      <input id="zip" type="number">
+      <button class="button" id="weatherLocation">Get Current Temp!</button>
+    </div>
+    <div style="text-align: center;">
+      <div class="errors"></div>
+      <div><h1 class="showCity"></h1></div>
+      <div class="showTemp"></div>
+      <div class="showF"></div>
+    </div>
+    </div>
+  </body>
+</html>
